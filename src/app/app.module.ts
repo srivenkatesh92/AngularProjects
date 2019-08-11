@@ -12,7 +12,7 @@ import { AgGridModule } from 'ag-grid-angular';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AgGridModule.withComponents(null)
+    AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]
